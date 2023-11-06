@@ -117,8 +117,8 @@ export const education = [
     id: 0,
     img: "https://vignaniit.edu.in/images/Logo.jpg",
     school: "Vignan's Institute of Information Technology, Visakhapatnam",
-    year: "2021 - 2025",
-    grade: "still pursuing",
+    date: "2021 - 2025",
+    grade: "8.87 CGPA",
     desc: "I am currently pursuing a Bachelor's degree in Computer Science and Engineering at Vignan's Institute of Information Technology, Visakhapatnam.",
 
     //  I have taken courses in Data Structures, Algorithms, Object-Oriented Programming, Database Management Systems, Operating Systems, and Computer Networks, among others. I am also a member of the Google Developers Student Club (GDSC) at KIIT, where I am learning and working on exciting projects with a team of talented developers.
@@ -130,7 +130,7 @@ export const education = [
     img: "https://srichaitanya.net/wp-content/uploads/2023/05/SC-Logo-main.jpg",
     school: "Sri Chaitanya Jr college, Visakhapatnam",
     date: "2019 - 2021",
-    grade: "95.4%",
+    grade: "9.5 GPA",
     // desc: "I completed my class 12 high school education at Methodist School, Dankuni, where I studied Science with Computer Science.",
     degree: "Intermediate, MPC",
   },
@@ -139,7 +139,7 @@ export const education = [
     img: "https://srichaitanyaapp.s3.ap-south-1.amazonaws.com/prod/assets/images/logo-sri-chaitanya.png",
     school: "Sri Chaitanya Techno School, Anakapalle",
     date: "2018 - 2019",
-    grade: "9.8 gpa",
+    grade: "9.8 GPA",
     // desc: "I completed my class 10 education at Methodist School, Dankuni, where I studied Science with Computer Application.",
     degree: "X, State Secondary Education",
   },

@@ -12,7 +12,7 @@ import {
 } from "./HeroComponents";
 import { Bio } from "../../my_data/mydata";
 import { Typewriter } from "typewriter-effect";
-import MyImg from '../../static/MyImage/IMG_1432.jpg'
+import MyImg from '../../static/MyImage/IMG_0795.jpg'
 
 const HeroSection = () => {
   return (

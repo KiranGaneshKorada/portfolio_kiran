@@ -7,6 +7,8 @@ import HeroSection from "./components/HeroSection";
 import Skills from "./components/Skills";
 import Projects from "./components/Projects";
 import { useState } from "react";
+import Education from "./components/Education";
+import Contact from "./components/Contact";
 
 const Body = styled.div`
   background-color: ${({ theme }) => theme.bg};
@@ -42,7 +44,11 @@ function App() {
           <Wrapper>
             <Skills />
           </Wrapper>
-          <Projects openModal={openModal} setOpenModal={setOpenModal} />
+          <Projects openModal={ openModal } setOpenModal={ setOpenModal } />
+          <Wrapper>
+            <Education />
+            <Contact/>
+          </Wrapper>
         </Body>
       </Router>
     </ThemeProvider>
