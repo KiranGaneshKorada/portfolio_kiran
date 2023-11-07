@@ -214,7 +214,7 @@ export const projects = [
     tags: ["React Js", "Emailjs"],
     category: "web app",
     github: "https://github.com/KiranGaneshKorada/portfolio_kiran",
-    webapp: "https://games-store-drab.vercel.app/",
+    webapp: "https://kiranganeshkorada.github.io/portfolio_kiran/",
     member: [
       {
         name: "Kiran Ganesh Korada",
