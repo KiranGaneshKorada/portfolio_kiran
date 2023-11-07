@@ -1,5 +1,6 @@
 import game_store_image from '../static/gameStoreimage/game-store.png'
 import puc_image from '../static/pucimage/Web capture_6-11-2023_13746_127.0.0.1.jpeg'
+import portfolioImg from "../static/portfolioImage/Web capture_8-11-2023_02933_localhost.jpeg"
 
 
 export const Bio = {
@@ -209,7 +210,7 @@ export const projects = [
     // date: "2023",
     description:
       "This portfolio website serves as a window into my world as a software developer and tech enthusiast.Through this website, I invite you to explore my achievements, delve into my projects, and witness the results of my dedication.Feel free to explore, connect, and reach out. Let's collaborate and create something extraordinary together!",
-    image: game_store_image,
+    image: portfolioImg,
     tags: ["React Js", "Emailjs"],
     category: "web app",
     github: "https://github.com/KiranGaneshKorada/portfolio_kiran",

@@ -12,7 +12,7 @@ import {
   Title
 } from "./HeroComponents";
 import { Bio } from "../../my_data/mydata";
-import { Typewriter } from "typewriter-effect";
+import TypeWriter from "../../Type_writer/Typewriter";
 import MyImg from '../../static/MyImage/IMG_0795.jpg'
 
 const HeroSection = () => {
@@ -28,12 +28,10 @@ const HeroSection = () => {
               I am a
               <Span>
                 {" "}
-                <Typewriter
-                  options={{
-                    strings: ["Hello", "World"],
-                    autoStart: true,
-                    loop: true,
-                  }}
+                <TypeWriter
+                  text={ Bio.roles[0] }
+                delay={150}
+                  infinite
                 />
               </Span>
             </TextLoop>
