@@ -6,9 +6,10 @@ import {
   HeroRightContainer,
   Img,
   ResumeButton,
+  Span,
   SubTitle,
   TextLoop,
-  Title,
+  Title
 } from "./HeroComponents";
 import { Bio } from "../../my_data/mydata";
 import { Typewriter } from "typewriter-effect";
@@ -25,15 +26,16 @@ const HeroSection = () => {
             </Title>
             <TextLoop>
               I am a
-              <span>
-                {/* <Typewriter
+              <Span>
+                {" "}
+                <Typewriter
                   options={{
-                    strings: Bio.roles,
+                    strings: ["Hello", "World"],
                     autoStart: true,
                     loop: true,
                   }}
-                /> */}
-              </span>
+                />
+              </Span>
             </TextLoop>
             <SubTitle>{Bio.description}</SubTitle>
             <ResumeButton href={Bio.resume} target="display">

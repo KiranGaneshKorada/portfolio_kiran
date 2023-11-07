@@ -9,7 +9,11 @@ export const Bio = {
     "I am a software developer well versed in Full Stack Web Development, I specialize in using cutting-edge technologies like React, Django and Django REST Frameworks. I often explore problems related to competitive programming, data structures and algorithms. I believe my adaptability, technical expertise, and problem-solving abilities make me a valuable asset to any team or project",
   github: "https://github.com/KiranGaneshKorada",
   resume: "...",
-  linkedin: "https://www.linkedin.com/in/kiran-ganesh-korada-307408260/"
+  linkedin: "https://www.linkedin.com/in/kiran-ganesh-korada-307408260/",
+  insta: "https://www.instagram.com/kiran_ganesh_korada/",
+  codechef: "https://www.codechef.com/users/kiranganesh123",
+  leetcode: "https://leetcode.com/kiranganesh2004/",
+  gfg: "https://auth.geeksforgeeks.org/user/kiranganeshk2004",
 };
 
 export const skills = [
@@ -182,7 +186,7 @@ export const projects = [
     tags: ["Django", "Bootstrap", "My sql", "HTML", "CSS", "JavaScript"],
     category: "web app",
     github: "https://github.com/KiranGaneshKorada/pollution_under_control",
-    webapp: null,
+    webapp: "none",
     member: [
       {
         name: "Kiran Ganesh Korada",
@@ -198,6 +202,32 @@ export const projects = [
       //   },
     ],
     // webapp: "https://vexa-app.netlify.app/",
+  },
+  {
+    id: 2,
+    title: "Portfolio",
+    // date: "2023",
+    description:
+      "This portfolio website serves as a window into my world as a software developer and tech enthusiast.Through this website, I invite you to explore my achievements, delve into my projects, and witness the results of my dedication.Feel free to explore, connect, and reach out. Let's collaborate and create something extraordinary together!",
+    image: game_store_image,
+    tags: ["React Js", "Emailjs"],
+    category: "web app",
+    github: "https://github.com/KiranGaneshKorada/portfolio_kiran",
+    webapp: "https://games-store-drab.vercel.app/",
+    member: [
+      {
+        name: "Kiran Ganesh Korada",
+        img: "https://avatars.githubusercontent.com/u/108609494?v=4",
+        linkedin: "https://www.linkedin.com/in/kiran-ganesh-korada-307408260/",
+        github: "https://github.com/KiranGaneshKorada",
+      },
+      //   {
+      //     name: "Upasana Chaudhuri",
+      //     img: "https://avatars.githubusercontent.com/u/100614635?v=4",
+      //     linkedin: "https://www.linkedin.com/in/upasana-chaudhuri-2a2bb5231/",
+      //     github: "https://github.com/upasana0710",
+      //   },
+    ],
   },
 ];
 

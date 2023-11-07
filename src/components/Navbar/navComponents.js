@@ -1,6 +1,5 @@
 import { Link as LinkR } from "react-router-dom";
 import styled from "styled-components";
-import _default from "../../Themes/default";
 
 
 export const Nav = styled.div`
@@ -83,15 +82,15 @@ export const GitHubButton = styled.a`
   border-radius: 20px;
   color: ${({ theme }) => theme.primary};
   cursor: pointer;
-  padding: 0 20px;
+  padding: 0 15px;
   font-weight: 500;
   text-decoration: none;
   font-size: 16px;
   transition: all 0.6s ease-in-out;
-  :hover {
-    background: ${({ theme }) => theme.primary};
-    color: ${({ theme }) => theme.white};
-  }
+  // :hover {
+  //   background: ${({ theme }) => theme.primary};
+  //   color: ${({ theme }) => theme.white};
+  // }
   @media screen and (max-width: 768px) {
     font-size: 14px;
   }
@@ -107,6 +106,26 @@ export const ButtonContainer = styled.div`
   @media screen and (max-width: 768px) {
     display: none;
   }
+`;
+
+export const ButtonMContainer = styled.div`
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  gap: 16px;
+  position: absolute;
+  top: 80px;
+  right: 0;
+  width: 100%;
+  padding: 12px 40px 24px 40px;
+  background: ${({ theme }) => theme.card_light + 99};
+  transition: all 0.6s ease-in-out;
+  transform: ${({ isOpen }) =>
+    isOpen ? "translateY(0)" : "translateY(-100%)"};
+  border-radius: 0 0 20px 20px;
+  box-shadow: 0 0 10px 0 rgba(0, 0, 0, 0.2);
+  opacity: ${({ isOpen }) => (isOpen ? "100%" : "0")};
+  z-index: ${({ isOpen }) => (isOpen ? "1000" : "-1000")};
 `;
 
 export const MobileIcon = styled.div`
@@ -141,6 +160,11 @@ export const MobileMenu = styled.div`
   box-shadow: 0 0 10px 0 rgba(0, 0, 0, 0.2);
   opacity: ${({ isOpen }) => (isOpen ? "100%" : "0")};
   z-index: ${({ isOpen }) => (isOpen ? "1000" : "-1000")};
+`;
+
+export const SpanRotate = styled.span`
+transform:rotate(90deg);
+padding:7px;
 `;
 
 export const MobileMenuItems = styled.ul`

@@ -1,5 +1,4 @@
 import styled from "styled-components";
-import _default from "../../Themes/default";
 
 export const Container = styled.div`
   background: linear-gradient(
