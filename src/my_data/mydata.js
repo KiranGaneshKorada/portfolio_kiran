@@ -9,7 +9,8 @@ export const Bio = {
   description:
     "I am a software developer well versed in Full Stack Web Development, I specialize in using cutting-edge technologies like React, Django and Django REST Frameworks. I often explore problems related to competitive programming, data structures and algorithms. I believe my adaptability, technical expertise, and problem-solving abilities make me a valuable asset to any team or project",
   github: "https://github.com/KiranGaneshKorada",
-  resume: "...",
+  resume:
+    "https://drive.google.com/file/d/10pfrQkFS0OfC4qJORbDgOgdMFvOb4ECp/view",
   linkedin: "https://www.linkedin.com/in/kiran-ganesh-korada-307408260/",
   insta: "https://www.instagram.com/kiran_ganesh_korada/",
   codechef: "https://www.codechef.com/users/kiranganesh123",
