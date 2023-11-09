@@ -13,7 +13,7 @@ import {
 } from "./HeroComponents";
 import { Bio } from "../../my_data/mydata";
 import TypeWriter from "../../Type_writer/Typewriter";
-import MyImg from '../../static/MyImage/IMG_0795.jpg'
+import MyImg from '../../static/MyImage/IMG_1432_edit_portf.jpg'
 
 const HeroSection = () => {
   return (

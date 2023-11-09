@@ -20,7 +20,7 @@ import {
   SiCodechef,
 } from "react-icons/si";
 import { IconContext } from "react-icons";
-import { AiFillGithub } from "react-icons/ai";
+import { AiFillGithub, AiFillLinkedin } from "react-icons/ai";
 import { FaBars } from "react-icons/fa";
 import { Bio } from "../../my_data/mydata";
 
@@ -31,7 +31,8 @@ const Navbar = () => {
     <Nav>
       <NavbarContainer>
         <NavLogo to="/">
-          <a href="/"
+          <a
+            href="/"
             style={{
               display: "flex",
               alignItems: "center",
@@ -65,12 +66,21 @@ const Navbar = () => {
         </NavItems>
         <ButtonContainer>
           <GitHubButton
-            href={Bio.github}
+            href={Bio.linkedin}
             style={{ marginRight: "10px" }}
             target="_blank"
           >
             <IconContext.Provider value={{ color: "#854CE6", size: "1.6em" }}>
               <AiFillGithub />
+            </IconContext.Provider>
+          </GitHubButton>
+          <GitHubButton
+            href={Bio.github}
+            style={{ marginRight: "10px" }}
+            target="_blank"
+          >
+            <IconContext.Provider value={{ color: "#854CE6", size: "1.6em" }}>
+              <AiFillLinkedin />
             </IconContext.Provider>
           </GitHubButton>
           <GitHubButton
@@ -153,6 +163,19 @@ const Navbar = () => {
               Github Profile
             </GitHubButton> */}
             <GitHubButton
+              href={Bio.linkedin}
+              style={{
+                padding: "10px 16px",
+                color: "white",
+                width: "max-content",
+              }}
+              target="_blank"
+            >
+              <IconContext.Provider value={{ color: "white", size: "1.6em" }}>
+                <AiFillLinkedin />
+              </IconContext.Provider>
+            </GitHubButton>
+            <GitHubButton
               href={Bio.github}
               style={{
                 padding: "10px 16px",
@@ -161,7 +184,7 @@ const Navbar = () => {
               }}
               target="_blank"
             >
-              <IconContext.Provider value={{ color: "#854CE6", size: "1.6em" }}>
+              <IconContext.Provider value={{ color: "white", size: "1.6em" }}>
                 <AiFillGithub />
               </IconContext.Provider>
             </GitHubButton>
@@ -174,7 +197,7 @@ const Navbar = () => {
               }}
               target="_blank"
             >
-              <IconContext.Provider value={{ color: "#854CE6", size: "1.6em" }}>
+              <IconContext.Provider value={{ color: "white", size: "1.6em" }}>
                 <SiGeeksforgeeks />
               </IconContext.Provider>
             </GitHubButton>
@@ -187,7 +210,7 @@ const Navbar = () => {
               }}
               target="_blank"
             >
-              <IconContext.Provider value={{ color: "#854CE6", size: "1.6em" }}>
+              <IconContext.Provider value={{ color: "white", size: "1.6em" }}>
                 <SiLeetcode />
               </IconContext.Provider>
             </GitHubButton>
@@ -200,7 +223,7 @@ const Navbar = () => {
               }}
               target="_blank"
             >
-              <IconContext.Provider value={{ color: "#854CE6", size: "1.6em" }}>
+              <IconContext.Provider value={{ color: "white", size: "1.6em" }}>
                 <SiCodechef />
               </IconContext.Provider>
             </GitHubButton>

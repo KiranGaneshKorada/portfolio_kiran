@@ -29,7 +29,7 @@ export const NavbarContainer = styled.div`
 `;
 
 export const NavLogo = styled(LinkR)`
-  width: 80%;
+  width: 50%;
   padding: 0 6px;
   display: flex;
   justify-content: start;
@@ -53,7 +53,7 @@ export const NavItems = styled.ul`
   padding: 0 6px;
   list-style: none;
 
-  @media screen and (max-width: 768px) {
+  @media screen and (max-width: 859px) {
     display: none;
   }
 `;
@@ -103,7 +103,7 @@ export const ButtonContainer = styled.div`
   justify-content: end;
   align-items: center;
   padding: 0 6px;
-  @media screen and (max-width: 768px) {
+  @media screen and (max-width: 859px) {
     display: none;
   }
 `;
@@ -130,7 +130,7 @@ export const ButtonMContainer = styled.div`
 
 export const MobileIcon = styled.div`
   display: none;
-  @media screen and (max-width: 768px) {
+  @media screen and (max-width: 859px) {
     display: block;
     position: absolute;
     top: 0;
