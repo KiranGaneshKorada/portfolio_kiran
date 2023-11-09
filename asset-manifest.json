@@ -1,17 +1,17 @@
 {
   "files": {
     "main.css": "/portfolio_kiran/static/css/main.bf538fe7.css",
-    "main.js": "/portfolio_kiran/static/js/main.65777dc3.js",
-    "static/media/IMG_0795.jpg": "/portfolio_kiran/static/media/IMG_0795.994b68b9fba89c6da88a.jpg",
+    "main.js": "/portfolio_kiran/static/js/main.5cbbea51.js",
     "static/media/game-store.png": "/portfolio_kiran/static/media/game-store.88d6dcebd87de26c1dbc.png",
+    "static/media/IMG_1432_edit_portf.jpg": "/portfolio_kiran/static/media/IMG_1432_edit_portf.8e9e7e60a1a89e7f569e.jpg",
     "static/media/Web capture_8-11-2023_02933_localhost.jpeg": "/portfolio_kiran/static/media/Web capture_8-11-2023_02933_localhost.f5a884897776cd308e66.jpeg",
     "static/media/Web capture_6-11-2023_13746_127.0.0.1.jpeg": "/portfolio_kiran/static/media/Web capture_6-11-2023_13746_127.0.0.1.8f560ed5a4f9061f60c0.jpeg",
     "index.html": "/portfolio_kiran/index.html",
     "main.bf538fe7.css.map": "/portfolio_kiran/static/css/main.bf538fe7.css.map",
-    "main.65777dc3.js.map": "/portfolio_kiran/static/js/main.65777dc3.js.map"
+    "main.5cbbea51.js.map": "/portfolio_kiran/static/js/main.5cbbea51.js.map"
   },
   "entrypoints": [
     "static/css/main.bf538fe7.css",
-    "static/js/main.65777dc3.js"
+    "static/js/main.5cbbea51.js"
   ]
 }
