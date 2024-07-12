@@ -160,10 +160,10 @@ const Contact = () => {
         </Desc>
         <ContactForm ref={form} onSubmit={handleSubmit}>
           <ContactTitle>Email Me 🚀</ContactTitle>
-          <ContactInput placeholder="Your Email" name="from_email" />
-          <ContactInput placeholder="Your Name" name="from_name" />
-          <ContactInput placeholder="Subject" name="subject" />
-          <ContactInputMessage placeholder="Message" rows="4" name="message" />
+          <ContactInput placeholder="Your Email" type="email" required={true} name="from_email" />
+          <ContactInput placeholder="Your Name" required={true} name="from_name" />
+          <ContactInput placeholder="Subject" required={true} name="subject" />
+          <ContactInputMessage placeholder="Message" required={true} rows="4" name="message" />
           <ContactButton type="submit" value="Send" />
         </ContactForm>
         <Snackbar

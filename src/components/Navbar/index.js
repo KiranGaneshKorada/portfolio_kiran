@@ -60,13 +60,13 @@ const Navbar = () => {
         <NavItems>
           <NavLink href="#about">About</NavLink>
           <NavLink href="#skills">Skills</NavLink>
-          {/* <NavLink href="#experience">Experience</NavLink> */}
+          <NavLink href="#experience">Experience</NavLink>
           <NavLink href="#projects">Projects</NavLink>
           <NavLink href="#education">Education</NavLink>
         </NavItems>
         <ButtonContainer>
           <GitHubButton
-            href={Bio.linkedin}
+            href={Bio.github}
             style={{ marginRight: "10px" }}
             target="_blank"
           >
@@ -75,7 +75,7 @@ const Navbar = () => {
             </IconContext.Provider>
           </GitHubButton>
           <GitHubButton
-            href={Bio.github}
+            href={Bio.linkedin}
             style={{ marginRight: "10px" }}
             target="_blank"
           >
@@ -126,14 +126,14 @@ const Navbar = () => {
             >
               Skills
             </MobileLink>
-            {/* <MobileLink
+            <MobileLink
                 href="#experience"
                 onClick={() => {
                   setIsOpen(!isOpen);
                 }}
               >
                 Experience
-              </MobileLink> */}
+              </MobileLink>
             <MobileLink
               href="#projects"
               onClick={() => {
@@ -168,6 +168,7 @@ const Navbar = () => {
                 padding: "10px 16px",
                 color: "white",
                 width: "max-content",
+                background:"black"
               }}
               target="_blank"
             >
@@ -181,6 +182,7 @@ const Navbar = () => {
                 padding: "10px 16px",
                 color: "white",
                 width: "max-content",
+                background:"black"
               }}
               target="_blank"
             >
@@ -194,6 +196,7 @@ const Navbar = () => {
                 padding: "10px 16px",
                 color: "white",
                 width: "max-content",
+                background:"black"
               }}
               target="_blank"
             >
@@ -207,6 +210,7 @@ const Navbar = () => {
                 padding: "10px 16px",
                 color: "white",
                 width: "max-content",
+                background:"black"
               }}
               target="_blank"
             >
@@ -220,6 +224,7 @@ const Navbar = () => {
                 padding: "10px 16px",
                 color: "white",
                 width: "max-content",
+                background:"black"
               }}
               target="_blank"
             >
